@@ -15,7 +15,7 @@ A simple REST API for managing books using **Node.js**, **Express**, and **Mongo
 - Express.js
 - MongoDB (Mongoose ORM)
 - UUID (for generating unique ISBNs)
-- Morgan (for logging purpose)
+- Morgan (for logging HTTP requests)
 
 ## Installation
 

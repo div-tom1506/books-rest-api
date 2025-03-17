@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const morgan = require('morgan');
 const booksRouter = require('./routes/booksRouter');
 
 const app = express();
@@ -11,6 +12,7 @@ app.listen(PORT, () => {
 
 connectToDB();
 
+app.use(morgan('dev'));
 app.use(express.json());
 
 app.use('/api/books', booksRouter);
