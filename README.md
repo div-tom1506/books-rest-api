@@ -26,7 +26,7 @@ A simple REST API for managing books using **Node.js**, **Express**, and **Mongo
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/books-rest-api.git
+   git clone https://github.com/div-tom1506/books-rest-api.git
    cd books-rest-api
    ```
 2. Install dependencies:
